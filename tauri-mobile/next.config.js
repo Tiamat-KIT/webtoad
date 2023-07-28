@@ -17,6 +17,7 @@ module.exports = async (phase, { defaultConfig }) => {
       unoptimized: true,
     },
     assetPrefix: isProd ? null : `http://${internalHost}:3000`,
+    output: "export",
   }
   return nextConfig
 }
