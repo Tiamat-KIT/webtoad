@@ -25,9 +25,9 @@ Tauri-mobile(Alpha)を使ってAndroidアプリを作成する
 4. Android Studioを導入する（らしい）
 5. JAVA_HOME環境変数にJDKの場所を設定
    ```bash
-  export JAVA_HOME=/opt/android-studio/jbr
+   export JAVA_HOME=/opt/android-studio/jbr
    ```
-6. ANDROID_HOMEとNDK_HOME環境変数を設定
+7. ANDROID_HOMEとNDK_HOME環境変数を設定
   ```bash
   export ANDROID_HOME="$HOME/Android/Sdk"
   export NDK_HOME="$ANDROID_HOME/ndk/25.0.8775105"
