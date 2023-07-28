@@ -19,7 +19,7 @@ Tauri-mobile(Alpha)を使ってAndroidアプリを作成する
    curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
    ```
 3. CargoにAndroid開発用パッケージを入れる
-   ```
+   ```bash
    rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
    ```
 4. Android Studioを導入する（らしい）
