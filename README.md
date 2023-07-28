@@ -180,6 +180,7 @@ Tauri-mobile(Alpha)を使ってAndroidアプリを作成する
   ## [モバイルワークフロー](https://next--tauri.netlify.app/next/mobile/development/mobile_workflow)
   - モバイルセットアップの生成
     - `npm run tauri android init`
-    - `dev`コマンドを使えば、コマンドラインから直接、既存のエミュレーターや接続されたデバイスでアプリを実行できる。代わりに`--open`フラグを使ってAndroid Studioを使うこともできる。 `npm run tauri android dev [--open]`
+    - `dev`コマンドを使えば、コマンドラインから直接、既存のエミュレーターや接続されたデバイスでアプリを実行できる。代わりに`--open`フラグを使ってAndroid Studioを使うこともできる。 
+`npm run tauri android dev [--open]`
     - androidアプリのビルド　`npm run tauri android build`
 
