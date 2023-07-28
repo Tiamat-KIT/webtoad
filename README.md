@@ -1,5 +1,7 @@
 # webtoad
 [Tauri-mobile(Alpha)](https://next--tauri.netlify.app/next/mobile/)を使ってAndroidアプリを作成する
+### [Qiita](https://qiita.com/aqua_ix/items/d8d0c373df074fc599fc#tauri-mobile-%E3%81%AE%E5%AE%9F%E8%A1%8C)
+### [Zenn](https://zenn.dev/laiso/articles/825ee7e652ad1b#android%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89)
 
 ## [Linux](https://next--tauri.netlify.app/next/guides/getting-started/prerequisites/linux)
 - システム周りの依存関係をダウンロード
