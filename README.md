@@ -110,22 +110,22 @@ Tauri-mobile(Alpha)を使ってAndroidアプリを作成する
     isClient &&
       invoke('greet', { name: 'World' }).then(console.log).catch(console.error)
     ```
-  - Next.jsのクライアントコンポーネントで動くようにする`componentDidMount`または`useEffect`でTauriコールを使用する
+- Next.jsのクライアントコンポーネントで動くようにする`componentDidMount`または`useEffect`でTauriコールを使用する
     ```tsx
     // ...
-  import { invoke } from '@tauri-apps/api/tauri'
+    import { invoke } from '@tauri-apps/api/tauri'
   
-  const Greet = () => {
-    useEffect(() => {
-      invoke('greet', { name: 'World' }).then(console.log).catch(console.error)
-    }, [])
-  }
+    const Greet = () => {
+      useEffect(() => {
+        invoke('greet', { name: 'World' }).then(console.log).catch(console.error)
+      }, [])
+    }
   
-  export default function Home() {
-    Greet()
-    // ...
-  }
-  ```
+    export default function Home() {
+      Greet()
+      // ...
+    }
+    ```
 ## [既存プロジェクトへの統合](https://next--tauri.netlify.app/next/mobile/development/integrate)
 - `Cargo.toml`に以下を追加
   ```toml
