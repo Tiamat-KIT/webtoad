@@ -1,5 +1,5 @@
 # webtoad
-Tauri-mobile(Alpha)を使ってAndroidアプリを作成する
+[Tauri-mobile(Alpha)](https://next--tauri.netlify.app/next/mobile/)を使ってAndroidアプリを作成する
 
 ## [Linux](https://next--tauri.netlify.app/next/guides/getting-started/prerequisites/linux)
 - システム周りの依存関係をダウンロード
